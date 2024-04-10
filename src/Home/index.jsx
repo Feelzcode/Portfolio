@@ -35,19 +35,27 @@ const Index = () => {
                       </div>
                       <span>CSS3</span> <span className="pull-right">75%</span>
                       <div className="progress">
-                        <div className="progress-bar" role="progressbar" style={{width: '75%'}} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />
+                        <div className="progress-bar" role="progressbar" style={{width: '85%'}} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />
                       </div>
                       <span>Bootstrap</span> <span className="pull-right">50%</span>
                       <div className="progress">
-                        <div className="progress-bar" role="progressbar" style={{width: '70%'}} aria-valuenow={50} aria-valuemin={0} aria-valuemax={100} />
+                        <div className="progress-bar" role="progressbar" style={{width: '90%'}} aria-valuenow={50} aria-valuemin={0} aria-valuemax={100} />
                       </div>
-                      <span>JAVASCRIPT</span> <span className="pull-right">80%</span>
+                      <span>JAVASCRIPT</span> <span className="pull-right">75%</span>
                       <div className="progress">
                         <div className="progress-bar" role="progressbar" style={{width: '80%'}} aria-valuenow={90} aria-valuemin={0} aria-valuemax={100} />
                       </div>
-                      <span>React</span> <span className="pull-right">75%</span>
+                      <span>React</span> <span className="pull-right">85%</span>
                       <div className="progress">
-                        <div className="progress-bar" role="progressbar" style={{width: '75%'}} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />
+                        <div className="progress-bar" role="progressbar" style={{width: '80%'}} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />
+                      </div>
+                      <span>C#</span> <span className="pull-right">85%</span>
+                      <div className="progress">
+                        <div className="progress-bar" role="progressbar" style={{width: '60%'}} aria-valuenow={65} aria-valuemin={0} aria-valuemax={100} />
+                      </div>
+                      <span>Asp.Net webApi</span> <span className="pull-right">85%</span>
+                      <div className="progress">
+                        <div className="progress-bar" role="progressbar" style={{width: '60%'}} aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} />
                       </div>
                     </div>
                   </div>
@@ -74,6 +82,8 @@ const Index = () => {
                        functionality. Whether it's optimizing performance for speed, ensuring cross-browser compatibility, 
                       or implementing pixel-perfect designs, I thrive on the challenge of turning concepts into reality.
                       </p>
+                      <p className='lead'>I'm excited about the opportunity to leverage my frontend development skills to
+                       create innovative and impactful digital experiences that delight users and drive business success.</p>
                     </div>
                   </div>
                 </div>
@@ -92,7 +102,7 @@ const Index = () => {
                   Services
                 </h3>
                 <p className="subtitle-a">
-                  my services
+                  Check out my services
                 </p>
                 <div className="line-mf" />
               </div>
@@ -102,10 +112,10 @@ const Index = () => {
             <div className="col-md-4">
               <div className="service-box">
                 <div className="service-ico">
-                  <span className="ico-circle"><i className="bi bi-briefcase" /></span>
+                  <span className="ico-circle"><i className="bi bi-code" /></span>
                 </div>
                 <div className="service-content">
-                  <h2 className="s-title"> Frontend Web Development Services</h2>
+                  <h2 className="s-title"> Frontend Web Development</h2>
                   <p className="s-description text-center">
                   Offering custom frontend web development services tailored to meet the unique needs of businesses and
                    individuals. From simple landing pages to complex web applications,
@@ -117,12 +127,12 @@ const Index = () => {
             <div className="col-md-4">
               <div className="service-box">
                 <div className="service-ico">
-                  <span className="ico-circle"><i className="bi bi-card-checklist" /></span>
+                  <span className="ico-circle"><i className="bi bi-lightbulb" /></span>
                 </div>
                 <div className="service-content">
                   <h2 className="s-title">Website Redesign and Optimization</h2>
                   <p className="s-description text-center">
-                  : Providing website redesign and optimization services to revamp outdated or underperforming websites.
+                   Providing website redesign and optimization services to revamp outdated or underperforming websites.
                    By analyzing user behavior, improving user experience, and optimizing performance, I transform websites into modern, 
                   efficient, and conversion-focused platforms that drive results.
                   </p>
@@ -132,63 +142,22 @@ const Index = () => {
             <div className="col-md-4">
               <div className="service-box">
                 <div className="service-ico">
-                  <span className="ico-circle"><i className="bi bi-bar-chart" /></span>
+                  <span className="ico-circle"><i className="bi bi-people" /></span>
                 </div>
                 <div className="service-content">
-                  <h2 className="s-title">Frontend Consultation and Training Services</h2>
+                  <h2 className="s-title">Frontend Training Services</h2>
                   <p className="s-description text-center">
                   Offering consultancy and training services to individuals and teams looking 
-                  to enhance their frontend development skills and practices. From architectural guidance to code reviews and training workshops, I provide valuable insights and resources to help teams improve their frontend development
+                  to enhance their frontend development skills and practices. 
+                  From architectural guidance to code reviews and training workshops,
+                   I provide valuable insights and resources 
+                  to help teams improve their frontend development
                    workflows and outcomes.
                   </p>
                 </div>
               </div>
             </div>
-            {/* <div className="col-md-4">
-              <div className="service-box">
-                <div className="service-ico">
-                  <span className="ico-circle"><i className="bi bi-binoculars" /></span>
-                </div>
-                <div className="service-content">
-                  <h2 className="s-title">Responsive Design</h2>
-                  <p className="s-description text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                    provident vitae! Magni
-                    tempora perferendis eum non provident.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="service-box">
-                <div className="service-ico">
-                  <span className="ico-circle"><i className="bi bi-brightness-high" /></span>
-                </div>
-                <div className="service-content">
-                  <h2 className="s-title">Graphic Design</h2>
-                  <p className="s-description text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                    provident vitae! Magni
-                    tempora perferendis eum non provident.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="service-box">
-                <div className="service-ico">
-                  <span className="ico-circle"><i className="bi bi-calendar4-week" /></span>
-                </div>
-                <div className="service-content">
-                  <h2 className="s-title">Marketing Services</h2>
-                  <p className="s-description text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                    provident vitae! Magni
-                    tempora perferendis eum non provident.
-                  </p>
-                </div>
-              </div>
-            </div> */}
+            
           </div>
         </div>
       </section>{/* End Services Section */}
@@ -203,7 +172,7 @@ const Index = () => {
                   <span className="ico-circle"><i className="bi bi-check" /></span>
                 </div>
                 <div className="counter-num">
-                  <p data-purecounter-start={0} data-purecounter-end={450} data-purecounter-duration={1} className="counter purecounter" />
+                  <p data-purecounter-start={0} data-purecounter-end={3} data-purecounter-duration={1} className="counter purecounter" />
                   <span className="counter-text">WORKS COMPLETED</span>
                 </div>
               </div>
@@ -214,7 +183,7 @@ const Index = () => {
                   <span className="ico-circle"><i className="bi bi-journal-richtext" /></span>
                 </div>
                 <div className="counter-num">
-                  <p data-purecounter-start={0} data-purecounter-end={25} data-purecounter-duration={1} className="counter purecounter" />
+                  <p data-purecounter-start={0} data-purecounter-end={3} data-purecounter-duration={1} className="counter purecounter" />
                   <span className="counter-text">YEARS OF EXPERIENCE</span>
                 </div>
               </div>
@@ -225,7 +194,7 @@ const Index = () => {
                   <span className="ico-circle"><i className="bi bi-people" /></span>
                 </div>
                 <div className="counter-num">
-                  <p data-purecounter-start={0} data-purecounter-end={550} data-purecounter-duration={1} className="counter purecounter" />
+                  <p data-purecounter-start={0} data-purecounter-end={2} data-purecounter-duration={1} className="counter purecounter" />
                   <span className="counter-text">TOTAL CLIENTS</span>
                 </div>
               </div>
@@ -236,7 +205,7 @@ const Index = () => {
                   <span className="ico-circle"><i className="bi bi-award" /></span>
                 </div>
                 <div className="counter-num">
-                  <p data-purecounter-start={0} data-purecounter-end={48} data-purecounter-duration={1} className="counter purecounter" />
+                  <p data-purecounter-start={0} data-purecounter-end={0} data-purecounter-duration={1} className="counter purecounter" />
                   <span className="counter-text">AWARD WON</span>
                 </div>
               </div>
@@ -254,7 +223,7 @@ const Index = () => {
                   Portfolio
                 </h3>
                 <p className="subtitle-a">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Explore Previous Projects
                 </p>
                 <div className="line-mf" />
               </div>
@@ -273,21 +242,21 @@ const Index = () => {
                     <div className="col-sm-8">
                       <h2 className="w-title">Sharpchop</h2>
                       <div className="w-more">
-                        <span className="w-ctegory">Web Design</span> / <span className="w-date">18 Sep. 2018</span>
+                        <span className="w-ctegory">Web Design</span> / <span className="w-date"> July. 2023</span>
                         <p className="card-description">
-                        <b>Description:</b> Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                    a pellentesque nec,
-                    egestas non nisi.
+                        <b>Description:</b>  A web application that simplifies the 
+                        dining experience by allowing users
+to seamlessly choose a restaurant, place an order by selecting from available menu
+options, and conveniently make payments using their preferred method, be it credit
+card or cash. The app ensures a hassle free process, providing users the convenience
+of receiving their food precisely at the scheduled time.
+
                   </p>
                   <p className="card-description">
-                        <b>Role:</b> Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                    a pellentesque nec,
-                    egestas non nisi.
+                        <b>Role:</b> Lead Frontend developer
                   </p>
                   <p className="card-description">
-                        <b>Technologies:</b> Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                    a pellentesque nec,
-                    egestas non nisi.
+                        <b>Technologies:</b> React,Html,Css, Bootsrap, Javascript,Jquery, Asp.Net webApi,C#
                   </p>
                       </div>
                     </div>
@@ -312,21 +281,17 @@ const Index = () => {
                     <div className="col-sm-8">
                       <h2 className="w-title">Petmart</h2>
                       <div className="w-more">
-                        <span className="w-ctegory">Web Design</span> / <span className="w-date">18 Sep. 2018</span>
+                        <span className="w-ctegory">Web Design</span> / <span className="w-date"> Sep. 2023</span>
                         <p className="card-description">
-                        <b>Description:</b> Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                    a pellentesque nec,
-                    egestas non nisi.
+                        <b>Description:</b> Petmart is your go-to pet gallery app! You can Register, 
+                        upload adorable pictures of your pets, and explore a delightful collection of pet photos from fellow users. You can create and personalize
+                         your profile to showcase your furry friends. It Dives into a community where pets take the spotlight.
                   </p>
                   <p className="card-description">
-                        <b>Role:</b> Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                    a pellentesque nec,
-                    egestas non nisi.
+                        <b>Role:</b> Lead Frontend developer and designer
                   </p>
                   <p className="card-description">
-                        <b>Technologies:</b> Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                    a pellentesque nec,
-                    egestas non nisi.
+                        <b>Technologies:</b> React, Html, Css, Javascript, .Net, C#
                   </p>
                       </div>
                     </div>
@@ -351,21 +316,16 @@ const Index = () => {
                     <div className="col-sm-8">
                       <h2 className="w-title">GarageKing</h2>
                       <div className="w-more">
-                        <span className="w-ctegory">Web Design</span> / <span className="w-date">18 Sep. 2018</span>
+                        <span className="w-ctegory">Web Design</span> / <span className="w-date">Jan. 2024</span>
                         <p className="card-description">
-                        <b>Description:</b> Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                    a pellentesque nec,
-                    egestas non nisi.
+                        <b>Description:</b> A fully comprehensive and user-friendly garage management software. Designed to streamline your operations, increase efficiency, reduce costs, and maximise profits. GarageKing is your
+                         go-to solution for managing appointments, tracking inventory, and enhancing customer satisfaction.
                   </p>
                   <p className="card-description">
-                        <b>Role:</b> Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                    a pellentesque nec,
-                    egestas non nisi.
+                        <b>Role:</b> Frontend designer
                   </p>
                   <p className="card-description">
-                        <b>Technologies:</b> Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                    a pellentesque nec,
-                    egestas non nisi.
+                        <b>Technologies:</b> Html, Css, Javascript,Jquery, C#
                   </p>
                       </div>
                     </div>
@@ -378,212 +338,13 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                <a href="assets/img/work-4.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
-                  <div className="work-img">
-                    <img src="assets/img/cvtemp.png" alt="" className="img-fluid" />
-                  </div>
-                </a>
-                <div className="work-content">
-                  <div className="row">
-                    <div className="col-sm-8">
-                      <h2 className="w-title">FastCv</h2>
-                      <div className="w-more">
-                        <span className="w-ctegory">Web Design</span> / <span className="w-date">18 Sep. 2018</span>
-                      </div>
-                    </div>
-                    <div className="col-sm-4">
-                      <div className="w-like">
-                        <a href=""> <span className="bi bi-plus-circle" /></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                <a href="assets/img/work-5.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
-                  <div className="work-img">
-                    <img src="assets/img/work-5.jpg" alt="" className="img-fluid" />
-                  </div>
-                </a>
-                <div className="work-content">
-                  <div className="row">
-                    <div className="col-sm-8">
-                      <h2 className="w-title">Studio Lena Mado</h2>
-                      <div className="w-more">
-                        <span className="w-ctegory">Web Design</span> / <span className="w-date">18 Sep. 2018</span>
-                      </div>
-                    </div>
-                    <div className="col-sm-4">
-                      <div className="w-like">
-                        <a href="portfolio-details.html"> <span className="bi bi-plus-circle" /></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                <a href="assets/img/work-6.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
-                  <div className="work-img">
-                    <img src="assets/img/work-6.jpg" alt="" className="img-fluid" />
-                  </div>
-                </a>
-                <div className="work-content">
-                  <div className="row">
-                    <div className="col-sm-8">
-                      <h2 className="w-title">Studio Big Bang</h2>
-                      <div className="w-more">
-                        <span className="w-ctegory">Web Design</span> / <span className="w-date">18 Sep. 2017</span>
-                        <p className="card-description">
-                        <b>Description:</b> Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                    a pellentesque nec,
-                    egestas non nisi.
-                  </p>
-                  <p className="card-description">
-                        <b>Role:</b> Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                    a pellentesque nec,
-                    egestas non nisi.
-                  </p>
-                  <p className="card-description">
-                        <b>Technologies:</b> Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                    a pellentesque nec,
-                    egestas non nisi.
-                  </p>
-                      </div>
-                    </div>
-                    <div className="col-sm-4">
-                      <div className="w-like">
-                        <a href="portfolio-details.html"> <span className="bi bi-plus-circle" /></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          
           </div>
         </div>
-      </section>{/* End Portfolio Section */}
-      {/* ======= Testimonials Section ======= */}
+      </section>
+      {/* End Portfolio Section */}
      
-      {/* End Testimonials Section */}
-      {/* ======= Blog Section ======= */}
-      <section id="blog" className="blog-mf sect-pt4 route">
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-12">
-              <div className="title-box text-center">
-                <h3 className="title-a">
-                  Blog
-                </h3>
-                <p className="subtitle-a">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                </p>
-                <div className="line-mf" />
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md-4">
-              <div className="card card-blog">
-                <div className="card-img">
-                  <a href="blog-single.html"><img src="assets/img/post-1.jpg" alt="" className="img-fluid" /></a>
-                </div>
-                <div className="card-body">
-                  <div className="card-category-box">
-                    <div className="card-category">
-                      <h6 className="category">Travel</h6>
-                    </div>
-                  </div>
-                  <h3 className="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-                  <p className="card-description">
-                    Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                    a pellentesque nec,
-                    egestas non nisi.
-                  </p>
-                </div>
-                <div className="card-footer">
-                  <div className="post-author">
-                    <a href="#">
-                      <img src="assets/img/testimonial-2.jpg" alt="" className="avatar rounded-circle" />
-                      <span className="author">Morgan Freeman</span>
-                    </a>
-                  </div>
-                  <div className="post-date">
-                    <span className="bi bi-clock" /> 10 min
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card card-blog">
-                <div className="card-img">
-                  <a href="blog-single.html"><img src="assets/img/post-2.jpg" alt="" className="img-fluid" /></a>
-                </div>
-                <div className="card-body">
-                  <div className="card-category-box">
-                    <div className="card-category">
-                      <h6 className="category">Web Design</h6>
-                    </div>
-                  </div>
-                  <h3 className="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-                  <p className="card-description">
-                    Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                    a pellentesque nec,
-                    egestas non nisi.
-                  </p>
-                </div>
-                <div className="card-footer">
-                  <div className="post-author">
-                    <a href="#">
-                      <img src="assets/img/testimonial-2.jpg" alt="" className="avatar rounded-circle" />
-                      <span className="author">Morgan Freeman</span>
-                    </a>
-                  </div>
-                  <div className="post-date">
-                    <span className="bi bi-clock" /> 10 min
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card card-blog">
-                <div className="card-img">
-                  <a href="blog-single.html"><img src="assets/img/post-3.jpg" alt="" className="img-fluid" /></a>
-                </div>
-                <div className="card-body">
-                  <div className="card-category-box">
-                    <div className="card-category">
-                      <h6 className="category">Web Design</h6>
-                    </div>
-                  </div>
-                  <h3 className="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-                  <p className="card-description">
-                    Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                    a pellentesque nec,
-                    egestas non nisi.
-                  </p>
-                </div>
-                <div className="card-footer">
-                  <div className="post-author">
-                    <a href="#">
-                      <img src="assets/img/testimonial-2.jpg" alt="" className="avatar rounded-circle" />
-                      <span className="author">Morgan Freeman</span>
-                    </a>
-                  </div>
-                  <div className="post-date">
-                    <span className="bi bi-clock" /> 10 min
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>{/* End Blog Section */}
+      
       {/* ======= Contact Section ======= */}
       <section id="contact" className="paralax-mf footer-paralax bg-image sect-mt4 route" style={{backgroundImage: 'url(assets/img/overlay-bg.jpg)'}}>
         <div className="overlay-mf" />
@@ -626,7 +387,8 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>{/* End Contact Section */}
+      </section>
+     
     </main>
   )
 }

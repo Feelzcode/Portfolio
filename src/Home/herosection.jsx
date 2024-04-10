@@ -8,8 +8,9 @@ const Herosection = () => {
       <div className="table-cell">
         <div className="container">
           {/*<p class="display-6 color-d">Hello, world!</p>*/}
-          <h1 className="hero-title mb-4">I am Ali Samuel Chidera</h1>
-          <p className="hero-subtitle"><span className="typed" data-typed-items="web Designer, Frontend Developer, Freelancer," /></p>
+          <h1 className="hero-title mb-4">I am Ali <span >Samuel</span>  Chidera</h1>
+          <p className="hero-subtitle" ><span className="typed"
+            data-typed-items="web Designer, Frontend Developer, Freelancer," /></p>
           {/* <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> */}
         </div>
       </div>
