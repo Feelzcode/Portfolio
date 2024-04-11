@@ -49,11 +49,11 @@ const Index = () => {
                       <div className="progress">
                         <div className="progress-bar" role="progressbar" style={{width: '80%'}} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />
                       </div>
-                      <span>C#</span> <span className="pull-right">85%</span>
+                      <span>C#</span> <span className="pull-right">50%</span>
                       <div className="progress">
                         <div className="progress-bar" role="progressbar" style={{width: '60%'}} aria-valuenow={65} aria-valuemin={0} aria-valuemax={100} />
                       </div>
-                      <span>Asp.Net webApi</span> <span className="pull-right">85%</span>
+                      <span>Asp.Net webApi</span> <span className="pull-right">55%</span>
                       <div className="progress">
                         <div className="progress-bar" role="progressbar" style={{width: '60%'}} aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} />
                       </div>
