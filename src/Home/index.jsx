@@ -422,7 +422,7 @@ const Index = () => {
                     </div>
                     <div className="col-md-6">
                       <h3 className="mb-3">GarageKing</h3>
-                      <p className="mb-4">GarageKing: Comprehensive garage management software. 
+                      <p className="mb-4"><b>GarageKing: </b>Comprehensive garage management software. 
                       Streamline operations, boost efficiency, cut costs, and optimize profits. Manage appointments, track inventory, and enhance customer satisfaction with ease.
                        Your ultimate solution for garage management needs.</p>
                       <p>Crafted a captivating homepage layout, 
