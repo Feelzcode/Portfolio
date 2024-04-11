@@ -74,7 +74,7 @@ const Index = () => {
                       <p className="lead">
                       My journey in frontend development began with a fascination for how technology
                        can transform ideas into visually stunning and intuitive interfaces. Over the years, 
-                       I've honed my skills in HTML, CSS,JavaScript and React, constantly staying updated with the
+                       I've honed my skills in HTML,CSS,JavaScript,Jquery,React and Typescript  , constantly staying updated with the
                        latest trends and best practices in the ever-evolving landscape of web development.
                       </p>
                       <p className="lead">
