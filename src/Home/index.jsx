@@ -214,7 +214,13 @@ const Index = () => {
         </div>
       </div>{/* End Counter Section */}
       {/* ======= Portfolio Section ======= */}
-      <section id="work" className="portfolio-mf sect-pt4 route">
+      
+      
+
+      {/* End Portfolio Section */}
+     
+     {/* features */}
+     <section id="work" className="portfolio-mf sect-pt4 route">
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
@@ -244,13 +250,6 @@ const Index = () => {
                       <div className="w-more">
                         <span className="w-ctegory">Web Design</span> / <span className="w-date"> July. 2023</span>
                         <p className="card-description">
-                        <b>Description:</b>  A web application that simplifies the 
-                        dining experience by allowing users
-to seamlessly choose a restaurant, place an order by selecting from available menu
-options, and conveniently make payments using their preferred method, be it credit
-card or cash. The app ensures a hassle free process, providing users the convenience
-of receiving their food precisely at the scheduled time.
-
                   </p>
                   <p className="card-description">
                         <b>Role:</b> Lead Frontend developer
@@ -283,9 +282,7 @@ of receiving their food precisely at the scheduled time.
                       <div className="w-more">
                         <span className="w-ctegory">Web Design</span> / <span className="w-date"> Sep. 2023</span>
                         <p className="card-description">
-                        <b>Description:</b> Petmart is your go-to pet gallery app! You can Register, 
-                        upload adorable pictures of your pets, and explore a delightful collection of pet photos from fellow users. You can create and personalize
-                         your profile to showcase your furry friends. It Dives into a community where pets take the spotlight.
+                        
                   </p>
                   <p className="card-description">
                         <b>Role:</b> Lead Frontend developer and designer
@@ -318,8 +315,6 @@ of receiving their food precisely at the scheduled time.
                       <div className="w-more">
                         <span className="w-ctegory">Web Design</span> / <span className="w-date">Jan. 2024</span>
                         <p className="card-description">
-                        <b>Description:</b> A fully comprehensive and user-friendly garage management software. Designed to streamline your operations, increase efficiency, reduce costs, and maximise profits. GarageKing is your
-                         go-to solution for managing appointments, tracking inventory, and enhancing customer satisfaction.
                   </p>
                   <p className="card-description">
                         <b>Role:</b> Frontend designer
@@ -342,8 +337,117 @@ of receiving their food precisely at the scheduled time.
           </div>
         </div>
       </section>
-      {/* End Portfolio Section */}
-     
+
+      <div className="container-xxl service py-5">
+        <div className="container">
+          <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
+           
+            <h1 className="mb-5"> Project Features</h1>
+          </div>
+          <div className="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+            <div className="col-lg-4">
+              <div className="nav w-100 nav-pills me-4">
+                <button className="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
+                  <i className="fa fa-car-side fa-2x me-3" />
+                  <h4 className="m-0">SharpChop</h4>
+                </button>
+                <button className="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
+                  <i className="fa fa-car fa-2x me-3" />
+                  <h4 className="m-0">Petmart</h4>
+                </button>
+                <button className="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
+                  <i className="fa fa-cog fa-2x me-3" />
+                  <h4 className="m-0">GarageKing</h4>
+                </button>
+                
+              </div>
+            </div>
+            <div className="col-lg-8">
+              <div className="tab-content w-100">
+                <div className="tab-pane fade show active" id="tab-pane-1">
+                  <div className="row g-4">
+                    <div className="col-md-6" style={{minHeight: '350px'}}>
+                      <div className="position-relative h-100">
+                        <img className="position-absolute img-fluid w-100 h-100" src="/assets/img/sharpcop.png"  style={{objectFit: 'cover'}} alt="" />
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <h3 className="mb-3">SharpChop</h3>
+                      <p className="mb-4">Simplified dining app: Choose restaurant, 
+                      order from menu, pay securely. Hassle-free process ensures timely food delivery, with options for credit card or cash payments. 
+                      Enjoy the convenience of receiving food precisely as scheduled.</p>
+                    
+                      <p><i className="bi bi-check text-success me-3" /> Implement Add to Cart feature for product selection</p>
+                      <p><i className="bi bi-check text-success me-3" />Integrate Notification System for order updates</p>
+                      <p><i className="bi bi-check text-success me-3" />Developed Track Order functionality. </p>
+                      <p><i className="bi bi-check text-success me-3" />Designed Shop Display Homepage and dashboard for users </p>
+                      {/* <a href className="btn btn-primary py-3 px-5 mt-3">Read More<i className="fa fa-arrow-right ms-3" /></a> */}
+                    </div>
+                  </div>
+                </div>
+                <div className="tab-pane fade" id="tab-pane-2">
+                  <div className="row g-4">
+                    <div className="col-md-6" style={{minHeight: '350px'}}>
+                      <div className="position-relative h-100">
+                        <img className="position-absolute img-fluid w-100 h-100" src="/assets/img/petmart.png" style={{objectFit: 'cover'}} alt="" />
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <h3 className="mb-3">Petmart</h3>
+                      <p className="mb-4">Petmart: Register, upload pet pics, explore adorable pet gallery.
+                       Personalize profile to showcase furry friends.
+                       Dive into a vibrant pet-loving community where your pets shine.</p>
+                      <p><i className="bi bi-check text-success me-3" />Implemented a streamlined login and registration 
+                      </p>
+                      <p><i className="bi bi-check text-success me-3" />Added a feature to upload captivating pet videos and images</p>
+                      <p><i className="bi bi-check text-success me-3" />Meticulously designed the gallery page for an immersive exploration of adorable pets.
+
+
+
+
+
+
+</p>
+
+                      {/* <a href className="btn btn-primary py-3 px-5 mt-3">Read More<i className="fa fa-arrow-right ms-3" /></a> */}
+                    </div>
+                  </div>
+                </div>
+                <div className="tab-pane fade" id="tab-pane-3">
+                  <div className="row g-4">
+                    <div className="col-md-6" style={{minHeight: '350px'}}>
+                      <div className="position-relative h-100">
+                        <img className="position-absolute img-fluid w-100 h-100" src="/assets/img/garage.png"  style={{objectFit: 'cover'}} alt="" />
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <h3 className="mb-3">GarageKing</h3>
+                      <p className="mb-4">GarageKing: Comprehensive garage management software. 
+                      Streamline operations, boost efficiency, cut costs, and optimize profits. Manage appointments, track inventory, and enhance customer satisfaction with ease.
+                       Your ultimate solution for garage management needs.</p>
+                      <p>Crafted a captivating homepage layout, 
+                      meticulously designing each section for optimal user engagement. Seamlessly integrated navigation and intuitive user interface elements to enhance user experience. Created visually appealing sections to 
+                      showcase key information and capture user interest effectively.</p>
+                     
+                      {/* <a href className="btn btn-primary py-3 px-5 mt-3">Read More<i className="fa fa-arrow-right ms-3" /></a> */}
+                    </div>
+                  </div>
+                </div>
+                <div className="tab-pane fade" id="tab-pane-4">
+                  <div className="row g-4">
+                    <div className="col-md-6" style={{minHeight: '350px'}}>
+                      <div className="position-relative h-100">
+                        <img className="position-absolute img-fluid w-100 h-100" src="img/service-4.jpg" style={{objectFit: 'cover'}} alt="" />
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       
       {/* ======= Contact Section ======= */}
       <section id="contact" className="paralax-mf footer-paralax bg-image sect-mt4 route" style={{backgroundImage: 'url(assets/img/overlay-bg.jpg)'}}>
