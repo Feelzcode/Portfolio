@@ -2,7 +2,7 @@ import React from 'react'
 
 const Herosection = () => {
   return (
-    <div id="hero" className="hero route bg-image" style={{backgroundImage: 'url(assets/img/portfolio.jpg)'}}>
+    <div id="hero" className="hero route bg-image" style={{backgroundImage: 'url(assets/img/new.jpg)'}}>
     <div className="overlay-itro" />
     <div className="hero-content display-table">
       <div className="table-cell">
